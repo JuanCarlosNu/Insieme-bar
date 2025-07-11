@@ -11,6 +11,7 @@ color: #fff;
 padding: 1em;
 text-align: center;
        }
+
 main {
 display: flex;
 flex-direction: column;
@@ -19,6 +20,7 @@ padding: 2em;
       }
 
 section {
+  width: calc(100% - 2em);
 background-color: #f7f7f7;
 padding: 1em;
 margin-bottom: 1em;
