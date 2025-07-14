@@ -58,6 +58,12 @@ border-radius: 10px;
 
 h2 {
 margin-top: 0;
+padding: 5px;
+background-color: rgb(254,86,86);
+display: inline-block;
+border-radius: 2px;
+color: white;
+transform: rotate(-5deg);
 
 }
 
