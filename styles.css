@@ -57,7 +57,7 @@ text-align: center;
 
 .navbar a {
   display: block;
-  padding: 1em;
+  padding: .5em;
   color: #fff;
   background-color: rgb(240, 52, 52);
   text-decoration: none;
