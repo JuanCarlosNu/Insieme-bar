@@ -36,6 +36,38 @@ text-align: center;
   color:rgb(254,86,86);
   border-color:rgb(254,86,86);
  }
+ /* Navbar */
+.navbar {
+  /*background-color: #444;*/
+  background-color: black;
+  overflow-x: auto; /* Scroll horizontal */
+  white-space: nowrap;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar li {
+  flex: 0 0 auto;
+}
+
+.navbar a {
+  display: block;
+  padding: 1em;
+  color: #fff;
+  background-color: rgb(240, 52, 52);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: #666;
+}
+
 
  
 
