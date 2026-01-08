@@ -21,7 +21,7 @@ text-align: center;
  }
 
 
- button{
+ .button-container button{
   height: 1.5rem;
   color: rgb(254,222,87);
   background-color: black;
@@ -33,6 +33,7 @@ text-align: center;
  }
 
  #lang-en{
+  
   color:rgb(254,86,86);
   border-color:rgb(254,86,86);
  }
@@ -138,4 +139,30 @@ margin: 1em;
 width: calc(33.33% - 2em);
 }
 }
+/* Botón volver arriba */
+#btnTop {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color:#c85e5e;
+  /*background-color: transparent;*/
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  /*transition: background-color 0.3s;*/
+}
+
+#btnTop:hover {
+ /* background-color: #666;*/
+}
+
+#btnTop img {
+  width: 25px;   /* tamaño del ícono */
+  height: 25px;
+ }
                                                                         
